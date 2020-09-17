@@ -17,7 +17,7 @@ class Student:
         self.birth = birth
         self.notes = []
 
-    def evaluation(self):
+    def result(self):
         self.realNote = randint(0, 10)
         print(f"{self.fname} has {self.realNote} /10 !")
         self.notes.append(self.realNote)
@@ -30,7 +30,7 @@ class Student:
 maxim = Student("Maxim", "Novikov", date(1988, 10, 17))
 print(maxim.__dict__)
 
-maxim.evaluation()
-maxim.evaluation()
-maxim.evaluation()
+maxim.result()
+maxim.result()
+maxim.result()
 maxim.average()
