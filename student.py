@@ -11,11 +11,10 @@ from statistics import mean
 
 class Student:
 
-    def __init__(self, fname: str, lname: str, birth: date):
+    def __init__(self, fname: str, lname: str):
         self.vivant = True
         self.fname = fname
-        self.lname = lname
-        self.birth = birth
+        self.lname = lname        
         self.notes = []
    
     def average(self):
@@ -28,7 +27,7 @@ class Student:
         self.notes.append(self.realNote)
 
 
-maxim = Student("Maxim", "Novikov", date(1988, 10, 17))
+maxim = Student("Maxim", "Novikov")
 print(maxim.__dict__)
 
 maxim.result()
