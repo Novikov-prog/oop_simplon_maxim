@@ -3,11 +3,9 @@
 # - Un étudiant a plusieurs notes
 # - Une notes a une valeur (integer)
 # Ecrire la méthode qui permet de retrouver toutes les notes associées à un étudiants et de faire la moyenne
-
 from datetime import date
 from random import *
 from statistics import mean
-
 
 class Student:
 
@@ -29,8 +27,15 @@ class Student:
 
 maxim = Student("Maxim", "Novikov")
 
+<<<<<<< HEAD
 for char in [maxim, maxim, maxim]:
     char.result()
     
 for char in [maxim]:
     char.average()
+=======
+maxim.result()
+maxim.result()
+maxim.result()
+maxim.average()
+>>>>>>> a59c4d3f2e6a9aa0fdda78d308e1ea84f199ddc1
