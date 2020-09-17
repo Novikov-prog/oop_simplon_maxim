@@ -3,11 +3,9 @@
 # - Un étudiant a plusieurs notes
 # - Une notes a une valeur (integer)
 # Ecrire la méthode qui permet de retrouver toutes les notes associées à un étudiants et de faire la moyenne
-
 from datetime import date
 from random import *
 from statistics import mean
-
 
 class Student:
 
