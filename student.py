@@ -29,7 +29,8 @@ class Student:
 
 maxim = Student("Maxim", "Novikov")
 
-maxim.result()
-maxim.result()
-maxim.result()
-maxim.average()
+for char in [maxim, maxim, maxim]:
+    char.result()
+    
+for char in [maxim]:
+    char.average()
